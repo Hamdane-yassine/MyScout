@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ca352630-0f6f-4085-9dc7-9ac48d2788bf" name="Talents" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\HAMDANE\Documents\MyScout\MyScoutApp" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

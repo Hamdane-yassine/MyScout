@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyScout-GraphSvc" />
+        <module name="MyScout-ChatSvc" />
+        <module name="MyScout-DiscoverySvc" />
+        <module name="MyScout-FeedSvc" />
+        <module name="MyScout-MediaSvc" />
+        <module name="MyScout-GateWaySvc" />
+        <module name="MyScout-AuthSvc" />
+        <module name="MyScout-PostSvc" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyScout-AuthSvc" options="-parameters" />
+      <module name="MyScout-ChatSvc" options="-parameters" />
+      <module name="MyScout-DiscoverySvc" options="-parameters" />
+      <module name="MyScout-FeedSvc" options="-parameters" />
+      <module name="MyScout-GateWaySvc" options="-parameters" />
+      <module name="MyScout-GraphSvc" options="-parameters" />
+      <module name="MyScout-MediaSvc" options="-parameters" />
+      <module name="MyScout-PostSvc" options="-parameters" />
+    </option>
+  </component>
+</project>
